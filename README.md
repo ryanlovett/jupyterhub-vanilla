@@ -23,6 +23,7 @@ Before starting, make sure to have VT-x enabled or you will get an error at Step
   1. Running the Docker Quickstart Terminal will set-up your environment and install docker.
 3. In your own terminal or the Docker Quickstart Terminal:
   1. Clone this git repository.
+  1. Execute: `docker-machine upgrade`
   1. cd to the directory where you cloned this repository and run: `docker build -t myhub .`
   1. Run: `docker run -p 8000:8000 myhub`
 4. Open the Kinematic application and you will see a 'myhub' container on the left side.
